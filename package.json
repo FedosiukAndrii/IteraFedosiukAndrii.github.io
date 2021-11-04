@@ -1,0 +1,30 @@
+{
+  "name": "FedosikAndrii.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "parcel": "parcel",
+    "start": "npm run parcel src/index.html",
+    "build": "npm run parcel build src/index.html",
+    "release": "node publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FedosiukAndrii/FedosiukAndrii.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FedosiukAndrii/FedosiukAndrii.github.io/issues"
+  },
+  "homepage": "https://github.com/FedosiukAndrii/FedosiukAndrii.github.io#readme",
+  "dependencies": {
+    "parcel": "^1.12.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+
+  }
+}
